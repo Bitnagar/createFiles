@@ -10,14 +10,11 @@ export function activate(context: vscode.ExtensionContext) {
                 const selectedPath = uri.fsPath;
                 const componentName = await vscode.window.showInputBox({
                     prompt: "Enter the Component Name (component name also becomes folder name)",
-
                     placeHolder: "e.g., MyReactComponent",
-
                     validateInput: (text) => {
                         if (!text.trim()) {
                             return "File name cannot be empty";
                         }
-
                         return null;
                     },
                 });
@@ -33,13 +30,10 @@ export function activate(context: vscode.ExtensionContext) {
                             );
                         } else {
                             fs.mkdirSync(fullPathToCreateFilesIn);
-
                             createAllFiles(
                                 fullPathToCreateFilesIn,
-
                                 componentName
                             );
-
                             vscode.window.showInformationMessage(
                                 `🪄  Finished creating files. Check folder: ${fullPathToCreateFilesIn}`
                             );
@@ -57,7 +51,6 @@ export function activate(context: vscode.ExtensionContext) {
             }
         }
     );
-
     context.subscriptions.push(disposable);
 }
 

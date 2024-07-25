@@ -6,4 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Initial release
+-   optional typescript files support.
+
+## Initial release
+
+### Added
+
+-   v0.1 Added support for Component folder, `Component.jsx`, `index.js`, `helpers.js`, `constants.js`, `Component.module.css` creation. Only JS files.
