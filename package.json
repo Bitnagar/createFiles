@@ -3,6 +3,7 @@
     "displayName": "Create Template Files",
     "description": "An extension for generating template files with boilerplate code.",
     "version": "0.0.1",
+    "publisher": "ShivamBhatnagar",
     "engines": {
         "vscode": "^1.91.0"
     },
