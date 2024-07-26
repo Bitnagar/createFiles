@@ -2,7 +2,7 @@
     "name": "createfiles",
     "displayName": "Create Template Files",
     "description": "An extension for generating template files with boilerplate code.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "ShivamBhatnagar",
     "repository": {
         "url": "https://github.com/Bitnagar/createFiles"
