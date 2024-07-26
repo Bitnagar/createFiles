@@ -4,6 +4,9 @@
     "description": "An extension for generating template files with boilerplate code.",
     "version": "0.0.1",
     "publisher": "ShivamBhatnagar",
+    "repository": {
+        "url": "https://github.com/Bitnagar/createFiles"
+    },
     "engines": {
         "vscode": "^1.91.0"
     },
